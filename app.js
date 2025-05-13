@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 
 app.get('/ec2', (req, res) => {
-  res.send('Welcome to AWS EC2');
+  res.send('Welcome to AWS EC2 Update dusing pipeline');
 });
 // Start the server
 app.listen(port, () => {
